@@ -1,0 +1,21 @@
+{
+    "name": "westacks/php-fann",
+    "description": "FANN object oriented wrapper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Westacks\\FANN\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PunyFlash",
+            "email": "puny.flash@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-fann": "*"
+    }
+}
